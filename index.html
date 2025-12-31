@@ -120,6 +120,72 @@ h1 {
   color: #0f2027;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #startBtn {
+    padding: 16px 35px;
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .carousel {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  .carousel-track {
+    width: calc(220px * 10);
+  }
+
+  .carousel-track img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.4;
+  }
+
+  #muteBtn {
+    margin-top: 15px;
+    padding: 10px 24px;
+    font-size: 16px;
+  }
+}
+
+/* EXTRA SMALL PHONES */
+@media (max-width: 420px) {
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .carousel-track {
+    width: calc(180px * 10);
+  }
+
+  .carousel-track img {
+    width: 180px;
+    height: 180px;
+  }
+
+  #startBtn {
+    font-size: 20px;
+    padding: 14px 30px;
+  }
+}
 </style>
 </head>
 
@@ -129,7 +195,7 @@ h1 {
   <button id="startBtn">🎉 CLICK ME 🎉</button>
 </div>
 
-<div id="content">
+<div id="content" style="padding:20px;">
   <h1>🎆 Happy New Year! 🎆</h1>
     <br>    
   <div class="carousel">
@@ -210,4 +276,5 @@ h1 {
 
 </body>
 </html>
+
 
